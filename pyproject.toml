@@ -7,7 +7,7 @@ name = "textfission"
 version = "0.1.0"
 description = "A powerful Python library for intelligent text processing, question generation, and answer generation for LLM fine-tuning datasets"
 readme = "README.md"
-license = {text = "MIT"}
+license = "MIT"
 authors = [
     {name = "Sun Zhihan", email = "sunzhihan20@mails.ucas.edu.cn"}
 ]
@@ -19,7 +19,6 @@ classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
     "Intended Audience :: Science/Research",
-    "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.8",
