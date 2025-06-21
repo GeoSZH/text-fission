@@ -45,6 +45,41 @@ TextFission 是一个强大的文本处理工具,用于将长文本分割成小�
 pip install textfission
 ```
 
+### 依赖兼容性说明
+
+如果遇到依赖冲突，特别是numpy版本冲突，请尝试以下解决方案：
+
+#### 方案1：使用兼容的numpy版本
+```bash
+pip install "numpy>=1.21.0,<2.0.0"
+pip install textfission
+```
+
+#### 方案2：创建虚拟环境（推荐）
+```bash
+python -m venv textfission-env
+source textfission-env/bin/activate  # Linux/Mac
+# 或
+textfission-env\Scripts\activate  # Windows
+pip install textfission
+```
+
+#### 方案3：使用conda环境
+```bash
+conda create -n textfission python=3.11
+conda activate textfission
+pip install textfission
+```
+
+### 常见问题
+
+**依赖冲突错误**：如果遇到类似以下错误：
+```
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed.
+```
+
+请参考 [安装指南](docs/installation.md) 中的详细解决方案。
+
 ## 快速开始
 
 ### 基本用法
