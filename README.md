@@ -398,5 +398,5 @@ MIT License
 
 ## 联系方式
 
-- 项目主页: https://github.com/yourusername/textfission
-- 问题反馈: https://github.com/yourusername/textfission/issues 
+- 项目主页: https://github.com/GeoSZH/text-fission
+- 问题反馈: https://github.com/GeoSZH/text-fission/issues 

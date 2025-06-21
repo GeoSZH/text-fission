@@ -14,11 +14,11 @@ setup(
     description="A powerful Python library for intelligent text processing, question generation, and answer generation for LLM fine-tuning datasets",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/GeoSzh/textfission",
+    url="https://github.com/GeoSzh/text-fission",
     project_urls={
-        "Bug Reports": "https://github.com/GeoSzh/textfission/issues",
-        "Source": "https://github.com/GeoSzh/textfission",
-        "Documentation": "https://github.com/GeoSzh/textfission#readme",
+        "Bug Reports": "https://github.com/GeoSzh/text-fission/issues",
+        "Source": "https://github.com/GeoSzh/text-fission",
+        "Documentation": "https://github.com/GeoSzh/text-fission#readme",
     },
     packages=find_packages(),
     classifiers=[
